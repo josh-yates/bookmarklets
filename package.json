@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node build.js",
-    "dev": "npx serve ./dist && watch 'npm run build' ./src"
+    "dev": "npx serve ./dist & watch 'npm run build' ./src"
   },
   "repository": {
     "type": "git",
