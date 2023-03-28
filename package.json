@@ -1,0 +1,26 @@
+{
+  "name": "bookmarklets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "npx serve ./dist && watch 'npm run build' ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh-yates/bookmarklets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josh-yates/bookmarklets/issues"
+  },
+  "homepage": "https://github.com/josh-yates/bookmarklets#readme",
+  "devDependencies": {
+    "bookmarkleter": "^1.1.0",
+    "typescript": "^5.0.2",
+    "watch": "^1.0.2"
+  }
+}
